@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay_control_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_control_bar"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <ImageButton
+        android:id="@+id/btn_prev"
+        style="@style/OverlayButton"
+        android:contentDescription="上一屏"
+        android:src="@android:drawable/ic_media_previous" />
+
+    <ImageButton
+        android:id="@+id/btn_prev_slow"
+        style="@style/OverlayButton"
+        android:contentDescription="减速"
+        android:src="@android:drawable/ic_media_rew" />
+
+    <ImageButton
+        android:id="@+id/btn_play_pause"
+        style="@style/OverlayButton"
+        android:contentDescription="播放/暂停"
+        android:src="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/btn_fast"
+        style="@style/OverlayButton"
+        android:contentDescription="加速"
+        android:src="@android:drawable/ic_media_ff" />
+
+    <ImageButton
+        android:id="@+id/btn_next"
+        style="@style/OverlayButton"
+        android:contentDescription="下一屏"
+        android:src="@android:drawable/ic_media_next" />
+
+    <ImageButton
+        android:id="@+id/btn_font_minus"
+        style="@style/OverlayButton"
+        android:contentDescription="缩小字体"
+        android:src="@drawable/ic_font_minus" />
+
+    <ImageButton
+        android:id="@+id/btn_font_plus"
+        style="@style/OverlayButton"
+        android:contentDescription="放大字体"
+        android:src="@drawable/ic_font_plus" />
+
+    <ImageButton
+        android:id="@+id/btn_drag"
+        style="@style/OverlayButton"
+        android:contentDescription="拖动窗口"
+        android:src="@drawable/ic_move" />
+
+    <ImageButton
+        android:id="@+id/btn_resize"
+        style="@style/OverlayButton"
+        android:contentDescription="调整大小（拖动缩放，单击切换预设）"
+        android:src="@drawable/ic_resize" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        style="@style/OverlayButton"
+        android:contentDescription="关闭"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+</LinearLayout>

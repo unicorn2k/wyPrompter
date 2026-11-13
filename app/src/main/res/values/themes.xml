@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WyPrompter" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#2563EB</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#F4F6FB</item>
+    </style>
+
+    <style name="OverlayButton" parent="android:Widget.ImageButton">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+</resources>

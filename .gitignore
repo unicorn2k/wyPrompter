@@ -1,0 +1,28 @@
+*.iml
+.gradle/
+/local.properties
+keystore.properties
+*.jks
+*.keystore
+/dist/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# IDE / local tool state (machine-specific)
+/.idea/
+/.omo/
+/.codegraph/
+
+# Large binaries: distribute via GitHub Releases instead of the repo
+/说明文档/*.mp4

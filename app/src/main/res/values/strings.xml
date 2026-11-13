@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">无忧提词器</string>
+    <string name="start_prompter">开始提词</string>
+    <string name="stop_prompter">停止提词</string>
+    <string name="new_manuscript">新建稿</string>
+    <string name="manuscript_list">我的稿件</string>
+    <string name="settings">设置</string>
+    <string name="import_file">导入文件</string>
+    <string name="import_txt">导入 TXT</string>
+    <string name="import_word">导入 Word</string>
+    <string name="content_hint">在此输入或粘贴提词内容…</string>
+    <string name="font_size">字体大小</string>
+    <string name="scroll_speed">滚动速度</string>
+    <string name="opacity">透明度</string>
+    <string name="start_scroll">开始滚动</string>
+    <string name="pause_scroll">暂停</string>
+    <string name="previous">上一段</string>
+    <string name="next">下一段</string>
+    <string name="close">关闭</string>
+    <string name="overlay_permission_guide">需要开启「显示在其他应用上层」权限</string>
+    <string name="battery_guide">建议将本应用加入电池白名单以防被后台清理</string>
+</resources>
